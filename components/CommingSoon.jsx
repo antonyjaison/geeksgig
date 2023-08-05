@@ -22,8 +22,8 @@ const CommingSoon = () => {
             can't wait to share it with you.
           </p>
           <div className={styles.contact}>
-            <a href="mailto:antony@gmail.com">email@gmail.com</a>
-            <a href="tel:9876543210">a9876543210</a>
+            <a href="mailto:hello@geeksgig.com">hello@geeksgig.com</a>
+            <a style={{display:'none'}} href="tel:9876543210">9876543210</a>
           </div>
         </div>
       </div>
