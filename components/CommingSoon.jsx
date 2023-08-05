@@ -12,7 +12,7 @@ const CommingSoon = () => {
     <main className={styles.wrapper}>
       <div className={styles.left_wrapper}>
         <Link className={styles.logo} href='/'>geeksgig</Link>
-        <h1 className={cabin.className}>
+        <h1>
           We’ll be <br /> up and running in no time!
         </h1>
         <div className={styles.bottom_section}>

@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Orange-Squash-Demo';
+    src: url('/fonts/Orange-Squash-Demo.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 *{
     margin: 0;
     padding: 0;
