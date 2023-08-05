@@ -31,6 +31,7 @@ const CommingSoon = () => {
         <img className={styles.image} src="/images/comming_soon_img.png" />
         <div className={styles.right_div}></div>
       </div>
+      <div className={styles.mobile_div}></div>
     </main>
   );
 };

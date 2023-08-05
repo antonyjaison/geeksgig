@@ -13,7 +13,6 @@
       font-size: 28.8px;
       font-weight: 400;
       text-decoration: none;
-      width: fit-content;
     }
     h1 {
       color: #000;
@@ -22,7 +21,7 @@
       font-weight: 400;
       line-height: normal;
       padding: 40px 90px;
-      font-size: 'Orange-Squash-Demo';
+      font-size: "Orange-Squash-Demo";
     }
     .bottom_section {
       position: absolute;
@@ -74,6 +73,9 @@
       object-fit: cover;
     }
   }
+  .mobile_div {
+    display: none;
+  }
 }
 
 @media (max-width: 1041px) {
@@ -119,13 +121,13 @@
     .left_wrapper {
       flex: 1;
       .logo {
-        padding: 30px 30px;
         font-size: 20.16px;
+        background-color: #fff;
       }
       h1 {
         color: #ffffff;
         font-size: 38.688px;
-        padding: 30px 30px;
+        padding: 30vh 30px 0;
       }
       .bottom_section {
         width: 100%;
@@ -134,7 +136,7 @@
           font-size: 12px;
           margin-left: 30px;
         }
-        .contact {        
+        .contact {
           margin-left: 30px;
           a {
             font-size: 12px;
@@ -144,6 +146,15 @@
     }
     .right_wrapper {
       display: none;
+    }
+    .mobile_div {
+      position: absolute;
+      top: 0;
+      right: 0;
+      display: block;
+      width: 60px;
+      height: 200px;
+      background: #ff3f65;
     }
   }
 }
